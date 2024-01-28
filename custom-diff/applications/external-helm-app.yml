@@ -23,4 +23,6 @@ spec:
     - CreateNamespace=true
 
   ignoreDifferences:
+  - group: apps
+    kind: Secret
 
